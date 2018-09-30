@@ -11,6 +11,7 @@
 	<body>
 		<div class="topnav">
 			<a class="active" href="#home">Home</a>
+			<a href="#about" class="w3-button w3-bar-item">About</a>
 		</div>
 
 		<div class="intro">
@@ -19,64 +20,56 @@
 			<center><h3> (All the visualizations are interactive! Hover your mouse over to see additional info!)</h3></center>
 		</div>
 		<center>
-			<br>
-			<h2>Transactions by County</h2>
 		<div class="iframes grid">
 			<div class="grid-element">
 				<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~rmulani2/27.embed" width="900px" height="450px"></iframe>
 			</div>
 			<div class="grid-element">
 				<p class="caption">
+				</br>
 					With a prelimiary analysis,
 					we were able to understand that our data was
 					primarily about Champaign county, with some info
 					about neighbouring counties (even in different states
-					This plot shows a count of transaction,
+					This plot shows a count of transactions
 					per county, and we have data about 6306
 					transactions in Champaign
 				</p>
 			</div>
 			<div class="grid-element">
-				<center>
-			<h2>Average Unit Costs by County</h2>
-					<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~rmulani2/39.embed" width="900px" height="450px"></iframe>
+				<center><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~rmulani2/39.embed" width="900px" height="450px"></iframe>
 					</center>
 			</div>
 			<div class="grid-element">
 				<p class="caption">
+
 					This plot helps us understand
 					how average unit costs varied by county.
 					While most counties fall within an average unit cost range,
-					some counties like Clinton, Grundy and 
+					some counties like Clinton, Grundy and
 					Hendricks (Indiana) have recorded
 					the highest average unit costs
+
 				</p>
 			</div>
 			<div class="grid-element">
-				<center>
-			<h2>Unit costs v/s transaction count by Merchant Brands in Champaign</h2>
-					<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~rmulani2/37.embed" width="100%" height="525px"></iframe></center>
+				<center><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~rmulani2/37.embed" width="100%" height="525px"></iframe></center>
 			</div>
 			<div class="grid-element">
 				<p class="caption">
-					This is a really interesting plot as, when you hover over a point, it shows you  
-					the name of the merchant with that average unit cost. With this, it becomes easy 
-					to analyze which merchant brand is charging a higher premium in a specific 
-					location.
-					This also helps understand whether
-					a relationship exists between number of transactions
-					and unit cost for a brand to see if more transactions
-					attracted brand to charge a higher price.
-					That assumption did turn out to be true as some brands have been seen to
-					charge a higher premium based on their popularity.
+					Next we tried to analyze
+					a relationship between number of transactions
+					and unit cost to see if more transactions
+					attracted vendors to charge a higher price.
+					That assumption did turn out to be true
 				</p>
 			</div>
-			
-			
+
 			</center>
 
 			<footer class="footer".>
 				<p align = 'Center'>Created at PygHack2018 <br>© 2018 All rights reserved</p>
+				<p>Created by Rishabh Mulani, Krzysztof Dutka, and Nanyi Yang at PygHack2018</p>
 			</footer>
 		</div>
 	</body>
